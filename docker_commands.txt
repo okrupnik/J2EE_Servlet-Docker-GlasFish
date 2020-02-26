@@ -1,0 +1,4 @@
+Create a dockerfile in the project - "touch dockerfile";
+Build docker image - "docker build -t javaee-showcase .";
+Run docker container - "docker run --name javaee -p 8080:8080 -p 4848:4848 javaee-showcase";
+Remove any stopped containers and all unused images, volumes, and networks - "docker system prune -a";
